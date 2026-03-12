@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Using Tailwind css</title>
+</head>
+<body>
+
+    <!-- break after -->
+     <!-- <div class="columns-2">
+        <p>Well, let me tell you something, ...</p>
+        <p class="break-inside-avoid-column">Sure, go ahead, laugh</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+     </div> -->
+
+    <!-- break before -->
+   <!-- <div class="colums-2">
+        <p>Well, let me tell you something...</p>
+        <p class="break-before-column">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+   </div> -->
+   
+
+   <!-- box sizing -->
+
+   <!-- <div class="box-content size-32 border-4 p-4">
+        <p>this is the box-sizing div</p>
+   </div> -->
+
+   <!-- <div class="box-content md:box-border border-4 p-4 size-32">
+        <p>This is a responsive dive</p>
+   </div> -->
+
+
+   <!-- Display -->
+
+   <!-- same line -->
+   <!-- <p>Lorem ipsum dolor sit amet <span class="inline">(Display: inline)</span> aspernatur, saepe minima earum dolor non! Neque provident repellat recusandae officia dolor excepturi!</p> -->
+
+   <!-- same line + can set width/height -->
+   <!-- <p>Lorem ipsum dolor sit amet <span class="inline-block">Display: inline-block</span> aspernatur, saepe minima earum dolor non! Neque provident repellat recusandae officia dolor excepturi!</p> -->
+
+   <!-- new line -->
+   <!-- <p>Lorem ipsum dolor sit amet>> <span class="block">block</span> aspernatur, saepe minima earum dolor non! Neque provident repellat recusandae officia dolor excepturi!</p>  -->
+
+   <!-- flow root -->
+
+   <!-- <div class="p-4">
+    <div class="flow-root">
+        <div class="my-4 border-2">Well, let me tell you something, ...</div>
+    </div>
+    <div class="flow-root">
+        <div class="my-4 border-2">Sure, go ahead, laugh if you want...</div>
+    </div>
+   </div> -->
+
+
+   <!-- flex -->
+
+   <!-- <div class="flex items-center">
+    <img src="https://picsum.photos/id/400/300" >
+    <div>
+        <strong>Andrew Alfred</strong>
+        <span>Technical advisor</span>
+    </div>
+   </div> -->
+
+
+   <!-- Grid -->
+
+   <!-- <div class="grid grid-cols-3 grid-rows-3 gap-4">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>6</span>
+    <span>7</span>
+    <span>8</span>
+    <span>9</span>
+   </div> -->
+
+   <!-- inline grid -->
+   <!-- <span class="inline-grid grid-cols-3 gap-4">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>6</span>
+   </span> 
+   <span class="inline-grid grid-cols-3 gap-4">  
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+    <span>6</span>
+   </span>  -->
+   
+   <!-- content -->
+    <!-- <div class="flex">
+        <p class="flex-1">01</p>
+        <div class="contents">
+            <p class="flex-1" >02</p>
+            <p class="flex-1">03</p>
+        </div>
+        <p class="flex-1">04</p>
+    </div> -->
+
+    <!-- float -->
+
+    <!-- 
+        float-right
+        float-left
+        float-start
+        float-end
+    -->
+
+    <!-- <article>
+        <img class="float-right" src="../html/images1.jpg" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eligendi quas deleniti perspiciatis soluta fugit ut illo accusantium quae laudantium temporibus adipisci magni  suscipit placeat hic sint non sit voluptates. Expedita totam asperiores sint deserunt quod. </p>
+    </article> -->
+
+
+    <!-- object-fit -->
+
+    <!-- 
+        object-contain
+        object-cover
+        object-fill 
+        object-none
+        object-scale-down
+    -->
+
+
+    <!-- position -->
+
+    <!-- <div class="absolute bg-slate-600">
+        <p>Static parent</p>
+        <div class="  bg-slate-500">
+            <p>Absolute child</p>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="w-40 bg-white shadow-lg rounded-lg p-3 relative">
+        <img src="https://picsum.photos/id/514/1920/1080" class="rounded-md" alt="">
+
+        <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+            ★
+        </span>
+        <p class="text-sm mt-2">Profile Card</p>
+    </div> -->
+
+     <!-- Example of static -->
+
+     <!-- <div class="bg-gray-400 p-6">
+        <div class="static bg-blue-400 text-white p-3">
+            Static Box
+        </div>
+        <p class="mt-2">This text stays below the box.</p>
+     </div> -->
+
+     <!-- Example of Absolute -->
+
+     <!-- <div class="relative bg-gray-400 p-10 m-3">
+        <div class="absolute top-2 right-2 bg-green-500 text-black p-2">
+            Absolute Box
+        </div>
+        <p>This is the parent container.</p>
+     </div> -->
+
+
+    <!-- Visibility -->
+
+    <!-- <div class="bg-gray-400 grid grid-cols-3 gap-4">
+        <div>01</div>
+        <div class="bg-green-500 invisible">02</div>
+        <div>03</div>
+    </div> -->
+
+    <div class="grid grid-cols-3 gap-4">
+        <div>01</div>
+        <div class="visible md:invisible">02</div>
+        <div>03</div>
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+</body>
+</html>
